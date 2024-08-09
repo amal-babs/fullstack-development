@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    // const add=(a,b)=>{
+    //     sum=a+b;
+    //     return sum;
+    //  }
+    //  console.log(add(3,4))
+    //const greet = (a) => a
+    // {return (`Hello ${a}`)
+    //return `hello ` + a;
+    //  a }
+    //console.log(greet('Amal'))
+    function fac(n) {
+      if (n === 0 || n === 1) {
+        return 1;
+      }
+      else {
+        return n * fac(n - 1);
+      }
+    }
+    n = parseInt(prompt("enter a number"))
+    console.log(fac(n))
+  </script>
+</body>
+
+</html>
